@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import HCaptcha from '@hcaptcha/react-hcaptcha'
 import gdgLogo from '../gdg-logo.jpeg'
+import problemStatementsPdf from './assets/gdd-hackober-ps.pdf'
 import { supabase, isConfigured } from './lib/supabase'
 import {
   signInWithGoogle,
@@ -885,12 +886,13 @@ function ThankYou({ onBack }) {
             label="Back to event"
           />
 
-          <button
-            className="secondary"
-            disabled
+          <a
+            className="secondary link"
+            href={problemStatementsPdf}
+            download="gdd-hackober-problem-statements.pdf"
           >
             Download problem statement
-          </button>
+          </a>
 
           <a
             className="primary link"
