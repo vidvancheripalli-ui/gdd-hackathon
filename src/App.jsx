@@ -1266,6 +1266,19 @@ function Home({ onRegister }) {
             </div>
           </div>
 
+          <div className="job-detail">
+            <span className="detail-icon green">
+              ₹
+            </span>
+
+            <div>
+              <small>Prize & registration</small>
+              <strong>₹6,000 prize pool</strong>
+              <small>Team registration fee</small>
+              <strong>₹400 per team</strong>
+            </div>
+          </div>
+
           <button
             className="primary apply"
             onClick={onRegister}
