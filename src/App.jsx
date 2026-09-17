@@ -46,7 +46,7 @@ function Header({ page }) {
         </span> */}
         <img
        className="brand-logo"
-       src="/gdg-logo.jpeg"
+       src="gdg-logo.jpeg"
        alt="GDGoC GRIET"
        />
         <span>
@@ -924,7 +924,7 @@ function Home({ onRegister }) {
           </span> */}
           <img
        className="brand-logo"
-       src="/gdg-logo.jpeg"
+       src="gdg-logo.jpeg"
        alt="GDGoC GRIET"
        />
 
