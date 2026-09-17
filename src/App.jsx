@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import HCaptcha from '@hcaptcha/react-hcaptcha'
+import gdgLogo from '../gdg-logo.jpeg'
 import { supabase, isConfigured } from './lib/supabase'
 import {
   signInWithGoogle,
@@ -46,7 +47,7 @@ function Header({ page }) {
         </span> */}
         <img
        className="brand-logo"
-       src="gdg-logo.jpeg"
+       src={gdgLogo}
        alt="GDGoC GRIET"
        />
         <span>
@@ -924,7 +925,7 @@ function Home({ onRegister }) {
           </span> */}
           <img
        className="brand-logo"
-       src="gdg-logo.jpeg"
+       src={gdgLogo}
        alt="GDGoC GRIET"
        />
 
