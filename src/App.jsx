@@ -1245,11 +1245,11 @@ function Home({ onRegister }) {
 
             <div>
               <small>
-                Registrations
+                Registrations(Last Date)
               </small>
-              <strong>29th September 2026</strong>
+              <strong>30th September 2026</strong>
               <small> Event date</small>
-              <strong>1rst October 2026</strong>
+              <strong>1st October 2026</strong>
             </div>
           </div>
 
