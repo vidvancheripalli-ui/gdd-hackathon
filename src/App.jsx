@@ -754,7 +754,7 @@ function Payment({
             <img src="/event-qr.jpeg" />
           </div>
 
-          <strong>
+          {/* <strong>
             Official event payment QR
           </strong>
 
@@ -764,7 +764,7 @@ function Payment({
             QR before launch.
           </small>
         </div>
-
+ */}
         <Notice>
           You may screenshot this QR, pay
           using your UPI/banking app, then
