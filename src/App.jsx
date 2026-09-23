@@ -393,7 +393,7 @@ function Register({ onVerified, onBack }) {
             />
 
             <Field
-              label="College email"
+              label="Email(Same as above)"
               type="email"
               value={form.email}
               onChange={(v) =>
