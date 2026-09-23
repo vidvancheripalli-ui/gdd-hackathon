@@ -7,10 +7,17 @@
   object-fit: contain;
 }
 .page-navigation{padding-top:12px}.back-button{padding:10px 14px;font-size:14px}
+.fake-qr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 24px;
+}
+
 .fake-qr img {
-  width: 280px;
-  height: 280px;
+  width: 240px;
+  height: 240px;
   object-fit: contain;
   display: block;
-  margin: 0 auto;
 }
