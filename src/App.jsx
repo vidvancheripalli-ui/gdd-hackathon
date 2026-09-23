@@ -751,7 +751,7 @@ function Payment({
             className="fake-qr"
             aria-label="Official payment QR placeholder"
           >
-            ▦
+            <img src={event-qr} />
           </div>
 
           <strong>
