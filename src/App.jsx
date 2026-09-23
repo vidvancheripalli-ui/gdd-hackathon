@@ -753,8 +753,8 @@ function Payment({
           >
             <img src="/event-qr.jpeg" />
           </div>
-
-          {/* /* {/* <strong>
+{/* 
+          <strong>
             Official event payment QR
           </strong>
 
@@ -762,7 +762,7 @@ function Payment({
             Replace this placeholder with
             the official college/club account
             QR before launch.
-          </small>*/} */ */}
+          </small> */}
         </div>
  
         <Notice>
