@@ -373,7 +373,9 @@ function Register({ onVerified, onBack }) {
               }
               required
             />
-
+             <Notice>
+          Participants who are not from GRIET, should append their college name to ROLL NUMBER
+        </Notice>
             <Field
               label="Branch"
               value={form.branch}
